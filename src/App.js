@@ -51,7 +51,7 @@ function App() {
     }
 
     try {
-      const response = await fetch('otp-auth-back-jdxgjoa5u-lrahul05s-projects.vercel.app/send-otp', {
+      const response = await fetch('otp-auth-back-theta.vercel.app/send-otp', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -71,7 +71,7 @@ function App() {
 
   const verifyOtp = async () => {
     try {
-      const response = await fetch('otp-auth-back-jdxgjoa5u-lrahul05s-projects.vercel.app/verify-otp', {
+      const response = await fetchotp-auth-back-theta.vercel.app/verify-otp', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
